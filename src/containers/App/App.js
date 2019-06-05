@@ -5,11 +5,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AppWrapper from './styles';
 import { GlobalStyle } from 'styles';
 
-import Header from 'components/Header';
-import Footer from 'components/Footer';
-import Loader from 'components/Loader';
-const HomePage = lazy(() => import('containers/HomePage'));
-const AddPage = lazy(() => import('containers/AddPage'));
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Loader from '../../components/Loader';
+const HomePage = lazy(() => import('../HomePage'));
+const AddPage = lazy(() => import('../AddPage'));
 
 const app = () => (
   <AppWrapper>

@@ -2,7 +2,7 @@ import React from 'react';
 import { func } from 'prop-types';
 import { Helmet } from 'react-helmet';
 
-import Form from 'components/Form';
+import Form from '../../components/Form';
 
 const AddPage = ({ addData }) => (
   <>

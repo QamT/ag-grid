@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<ForwardRef(styled.div)>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <meta
+      content="ag-grid crud app"
+      name="description"
+    />
+  </HelmetWrapper>
+  <BrowserRouter>
+    <Header />
+    <React.Suspense
+      fallback={[Function]}
+    >
+      <Switch>
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.lazy),
+              "_ctor": [Function],
+              "_result": null,
+              "_status": -1,
+            }
+          }
+          path="/add"
+        />
+      </Switch>
+    </React.Suspense>
+    <Footer />
+  </BrowserRouter>
+  <GlobalStyleComponent />
+</ForwardRef(styled.div)>
+`;

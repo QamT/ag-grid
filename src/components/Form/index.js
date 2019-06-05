@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { withRouter } from "react-router";
 
-import { useForm, data } from 'utils';
+import { useForm, data } from '../../utils';
 import { FormWrapper, InputWrapper } from './styles';
 
 const Form = ({ addData, history }) => {

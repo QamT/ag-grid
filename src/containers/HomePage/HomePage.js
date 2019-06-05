@@ -2,7 +2,7 @@ import React from 'react';
 import { arrayOf, object } from 'prop-types';
 import { Helmet } from 'react-helmet';
 
-import Grid from 'components/Grid';
+import Grid from '../../components/Grid';
 
 const HomePage = ({ columnDefs, rowData }) => (
   <>
