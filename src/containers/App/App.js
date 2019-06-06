@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import AppWrapper from './styles';
-import { GlobalStyle } from 'styles';
+import { GlobalStyle } from '../../styles';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
